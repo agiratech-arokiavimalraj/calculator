@@ -12,7 +12,7 @@ function performer(x){
     let opeAcc;
     let result;
     let co;
-    let x;
+    let x = 0;
     switch(x){
         case 1: {
             if(co==undefined && opeAcc==false){ 
