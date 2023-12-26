@@ -1,0 +1,97 @@
+body{
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+.title{
+    font-size: 75px;
+    text-align: center;
+    color: crimson;
+}
+.display-outer{
+    display: flex;
+    background-color: crimson;
+    width: 372px;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;    
+}
+.outer-most{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caption{
+    font-size: 30px;
+    text-align: center;
+}
+.display-inner{
+    background-color: aliceblue;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    box-sizing: border-box;
+    border-color: #000;
+    border-radius: 10px;
+    border-style:ridge;
+    
+}
+.display{
+    margin-top: 10px;
+    font-size: 50px;
+    
+}
+.cap-out{
+    text-align: center;
+    
+}
+.caption{
+    font-size: 32px;
+    color: azure;
+}
+.dis-out{
+    position: relative;
+    margin-right: 20px;
+    text-align: right;
+}
+.but{
+    border-radius: 10px;
+    font-size: 20px;
+}
+.but:hover{
+    font-size: 25px;
+    background-color: aqua;
+}
+.butr0{
+    background-color:azure;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    box-shadow: 10px #000;
+} 
+ 
+.butr1{
+background-color:azure;
+height: 70px;
+width: 70px;
+margin: 10px;
+}
+.butr2{
+background-color:azure;
+height: 70px;
+width: 70px;
+margin: 10px;
+}
+.butr3{
+background-color:azure;
+height: 70px;
+width: 70px;
+margin: 10px;
+}
+.butr4{
+background-color:azure;
+height: 70px;
+width: 70px;
+margin: 10px;
+}
