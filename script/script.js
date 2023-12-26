@@ -6,13 +6,7 @@ let result;
 let co;
 let x;
 function performer(x){
-    let firstNumber;
-    let secondNumber;
-    let operator;
-    let opeAcc;
-    let result;
-    let co;
-    let x = 0;
+   
     switch(x){
         case 1: {
             if(co==undefined && opeAcc==false){ 
