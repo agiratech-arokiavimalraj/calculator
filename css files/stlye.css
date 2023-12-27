@@ -37,11 +37,7 @@ body{
     border-style:ridge;
     
 }
-.display{
-    margin-top: 10px;
-    font-size: 50px;
-    
-}
+
 .cap-out{
     text-align: center;
     
@@ -51,10 +47,23 @@ body{
     color: azure;
 }
 .dis-out{
-    position: relative;
+    
+    height: auto;
+    width: auto;
     margin-right: 20px;
-    text-align: right;
+    
 }
+.display{
+    position: inherit;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: right;
+    overflow: overlay;
+    
+}
+
 .but{
     border-radius: 10px;
     font-size: 20px;

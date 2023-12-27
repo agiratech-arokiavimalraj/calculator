@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , Calculator">
     <title>Calculator</title>
     <link rel="stylesheet" href="./css files/stlye.css">
@@ -19,41 +27,43 @@
             
             <div class="display-inner">
                 <div class="dis-out">
-                    <div id="dis-so" class="display">0.0</div>
+                    <div id="dis-so" class="display">0</div>
                 </div>
             </div>
             <div class="row0">
-                <button id="c" class="but butr0 butc0 " onclick="x=c" value="c">C</button>
-                <button id="del" class="but butr0 butc1 " onclick="x=d" value="Del">Del</button>
-                <button id="%" class="but butr0 butc2 " onclick="x=m" value="%">%</button>
-                <button id="+" class="but butr0 butc3 " onclick="x=+" value="+">+</button>
+                <button id="c" class="but butr0 butc0 " onclick="clears()" value="c">C</button>
+                <button id="del" class="but butr0 butc1 " onclick="del()" value="Del">Del</button>
+                <button id="%" class="but butr0 butc2 " onclick="mod()" value="%">%</button>
+                <button id="+" class="but butr0 butc3 " onclick="add()" value="+">+</button>
             </div>
             <div class="row1">
                 <button id="1" class="but butr1 butc0" onclick="performer(1)" value="1">1</button>
-                <button id="2" class="but butr1 butc1" onclick="x=2" value="2">2</button>
-                <button id="3" class="but butr1 butc2" onclick="x=3" value="3">3</button>
-                <button id="-" class="but butr1 butc3" onclick="x=-" value="-">-</button>
+                <button id="2" class="but butr1 butc1" onclick="performer(2)" value="2">2</button>
+                <button id="3" class="but butr1 butc2" onclick="performer(3)" value="3">3</button>
+                <button id="-" class="but butr1 butc3" onclick="sub()" value="-">-</button>
             </div>
             <div class="row2">
-                <button id="4" class="but butr2 butc0" onclick="x=4" value="4">4</button>
-                <button id="5" class="but butr2 butc1" onclick="x=5" value="5">5</button>
-                <button id="6" class="but butr2 butc2" onclick="x=6" value="6">6</button>
-                <button id="*" class="but butr2 butc3" onclick="x=*" value="*">x</button>
+                <button id="4" class="but butr2 butc0" onclick="performer(4)" value="4">4</button>
+                <button id="5" class="but butr2 butc1" onclick="performer(5)" value="5">5</button>
+                <button id="6" class="but butr2 butc2" onclick="performer(6)" value="6">6</button>
+                <button id="*" class="but butr2 butc3" onclick="mul()" value="*">x</button>
             </div>
             <div class="row3">
-                <button id="7" class="but butr3 butc0" onclick="x=7" value="7">7</button>
-                <button id="8" class="but butr3 butc1" onclick="x=8" value="8">8</button>
-                <button id="9" class="but butr3 butc2" onclick="x=9" value="9">9</button>
-                <button id="/" class="but butr3 butc3" onclick="x=/" value="/">/</button>
+                <button id="7" class="but butr3 butc0" onclick="performer(7)" value="7">7</button>
+                <button id="8" class="but butr3 butc1" onclick="performer(8)" value="8">8</button>
+                <button id="9" class="but butr3 butc2" onclick="performer(9)" value="9">9</button>
+                <button id="/" class="but butr3 butc3" onclick="div()" value="/">/</button>
             </div>
             <div class="row4">
-                <button id="3" class="but butr4 butc0" onclick="x=f" value="00">00</button>
-                <button id="0" class="but butr4 butc1" onclick="x=0" value="0">0</button>
-                <button id="+" class="but butr4 butc2" onclick="x=o" value=".">.</button>
-                <button id="=" class="but butr4 butc3" onclick="x=e" value="=">=</button>
+                <button id="00" class="but butr4 butc0" onclick="dod()" value="00">00</button>
+                <button id="0" class="but butr4 butc1" onclick="performer(0)" value="0">0</button>
+                <button id="+" class="but butr4 butc2" onclick="dot()" value=".">.</button>
+                <button id="=" class="but butr4 butc3" onclick="equals()" value="=">=</button>
             </div>
         </div>
     </div>
     <script src="script/script.js"></script>
+</body>
+</html>
 </body>
 </html>
