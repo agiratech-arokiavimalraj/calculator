@@ -104,3 +104,10 @@ height: 70px;
 width: 70px;
 margin: 10px;
 }
+.copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 30px;
+}

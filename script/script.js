@@ -560,6 +560,12 @@ function dod(){
         secondNumber = parseInt(ded);
         document.getElementById("dis-so").innerHTML = secondNumber;
     }
+    else if(firstNumber>0 && secondNumber==0){
+        let ded = parseFloat(firstNumber);
+        ded = ded *100;
+        firstNumber = parseInt(ded);
+        document.getElementById("dis-so").innerHTML = firstNumber;
+    }
 }
 function del(){
     if(firstNumber==0 && secondNumber==0){
@@ -598,7 +604,7 @@ function del(){
         document.getElementById("dis-so").innerHTML = secondNumber;
     }
 }
-function equals(){
+function equals(){   
     punch = false;
     equ = true;
     switch(operator){
@@ -607,6 +613,16 @@ function equals(){
                 fn=parseFloat(firstNumber);
                 sn=parseFloat(secondNumber);
                 co=sn+fn;
+                document.getElementById("dis-so").innerHTML = co;
+                secondNumber = co;
+                co=0;
+                operator = 0;
+                firstNumber =0;
+                break;
+            }
+            else if(firstNumber!=0){
+                fn=parseFloat(firstNumber);
+                co=0+fn;
                 document.getElementById("dis-so").innerHTML = co;
                 secondNumber = co;
                 co=0;
@@ -626,13 +642,33 @@ function equals(){
                 operator = 0;
                 firstNumber =0;
                 break;
-            }            
+            }
+            else if(firstNumber!=0){
+                fn=parseFloat(firstNumber);
+                co=0-fn;
+                document.getElementById("dis-so").innerHTML = co;
+                secondNumber = co;
+                co=0;
+                operator = 0;
+                firstNumber =0;
+                break;
+            }          
         }
         case 3:{
             if(firstNumber!=0 && secondNumber!=0){
                 fn=parseFloat(firstNumber);
                 sn=parseFloat(secondNumber);
                 co=sn*fn;
+                document.getElementById("dis-so").innerHTML = co;
+                secondNumber = co;
+                co=0;
+                operator = 0;
+                firstNumber =0;
+                break;
+            }
+            else if(firstNumber!=0){
+                fn=parseFloat(firstNumber);
+                co=0*fn;
                 document.getElementById("dis-so").innerHTML = co;
                 secondNumber = co;
                 co=0;
@@ -652,13 +688,33 @@ function equals(){
                 operator = 0;
                 firstNumber =0;
                 break;
-            }           
+            }
+            else if(firstNumber!=0){
+                fn=parseFloat(firstNumber);
+                co=0/fn;
+                document.getElementById("dis-so").innerHTML = co;
+                secondNumber = co;
+                co=0;
+                operator = 0;
+                firstNumber =0;
+                break;
+            }          
         }
         case 5:{
             if(firstNumber!=0 && secondNumber!=0){
                 fn=parseFloat(firstNumber);
                 sn=parseFloat(secondNumber);
                 co=sn%fn;
+                document.getElementById("dis-so").innerHTML = co;
+                secondNumber = co;
+                co=0;
+                operator = 0;
+                firstNumber =0;
+                break;
+            }
+            else if(firstNumber!=0){
+                fn=parseFloat(firstNumber);
+                co=0%fn;
                 document.getElementById("dis-so").innerHTML = co;
                 secondNumber = co;
                 co=0;
