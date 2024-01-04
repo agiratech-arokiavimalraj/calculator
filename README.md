@@ -1,16 +1,6 @@
+>https://agiratech-arokiavimalraj.github.io/calculator/
 
-https://agiratech-arokiavimalraj.github.io/calculator/
-this is my calculator-live page
-
-
-
-
-
-
-
-
-
-
+>Click to see My Simple Calculator-live page
 
 > Simple Calculator Project
 
